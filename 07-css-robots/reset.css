@@ -1,0 +1,234 @@
+
+
+/* Meyer Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	width:100%;
+	font-family:helvetica;
+	font-size:10px;
+}
+
+#site-wrapper {
+	background-color:#F5FFE5;
+}
+
+#site-header {
+	margin: 0 auto;
+	width: 960px;
+	position: relative;
+	height:120px;
+	padding:5px;
+}
+
+#site-header h1 a {
+	display: block;
+	height:120px;
+	background:url(images/logo.png) no-repeat top left;
+	text-indent:-9999px;
+}
+
+#menu-wrapper {
+	background-color:#744806;
+}
+
+#main-menu {
+	position: relative;
+	height: 30px;
+	font-size:16px;
+	margin: 0 auto;
+	width: 960px;
+	font-weight:bold;
+	background-color: #744723;
+}
+
+#main-menu ul li {
+	display: block;
+	float: left;
+	padding: 5px 10px 5px 10px;
+}
+
+#main-menu ul li a {
+	text-decoration: none;
+	display:block;
+	color: white;
+	padding: 5px 5px;
+	text-transform:uppercase;
+}
+
+#top-nav {
+	position: absolute;
+	right: 0px;
+	top:0px;
+	padding:5px;
+}
+
+#top-nav a {
+	font-size:11px;
+	color:#744723;
+	text-decoration:none;
+}
+
+#content-wrapper {
+	background-color: #F2F5F3;
+}
+
+#content {
+	padding: 10px;
+	margin: 0 auto;
+	width: 960px;
+}
+
+#sidebar {
+	width:200px;
+	padding: 50px 10px;
+	float:right;
+}
+
+#sidebar h1 {
+	text-transform:uppercase;
+	color: #744723;
+	font-size:16px;
+	font-weight:bold;
+}
+
+#sidebar ul li {
+	padding:3px;
+}
+
+#sidebar ul li a {
+	text-decoration:none;
+	font-size:11px;
+	color:#744723;
+	font-weight:bold;
+
+}
+
+#sidebar img {
+	width:160px;
+	padding: 5px 0px 0px 0px;
+}
+
+#page {
+	float:left;
+	width: 500px;
+	padding: 40px 30px;
+}
+
+#page h1 {
+	height:50px;
+	font-family:georgia;
+	font-size:40px;
+	font-style:italic;
+	font-weight:bold;
+	color:#744723;
+
+}
+
+#page h2 {
+	text-transform: uppercase;
+	color: #744723;
+	font-size:16px;
+	font-weight:bold;
+}
+
+#page p {
+	font-size:10px;
+	color:#5F5F5F;
+	padding: 5px 0px 5px 0px;
+	line-height:12px;
+}
+
+#footer-wrapper {
+	clear:both;
+	position: relative;
+	width:100%;
+	height:100px;
+	background-color:#744723;
+}
+
+#site-footer {
+	margin:0 auto;
+	width:960px;
+}
+
+#site-footer h1 {
+	font-family:helvetica;
+	font-size:16px;
+	text-transform:uppercase;
+}
+
+#footer-contact {
+	float:left;
+	width:200px;
+	padding: 20px 20px 20px 50px;
+	color: #EADBC5;
+}
+
+#footer-contact p {
+	padding-top:5px;
+	font-size:10px;
+	line-height:13px;
+}
+
+#footer-follow {
+	padding: 20px 100px 20px 20px;
+	float:right;
+	color: #EADBC5;
+}
+
+#footer-follow li {
+	float:right;
+	padding: 5px 5px 5px 0px;
+}
+
+#footer-follow li img {
+	width:25px;
+}

@@ -1,0 +1,397 @@
+
+
+/* Meyer Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Center Content */
+
+.centered { 
+  margin:0 auto;
+  width:100%;
+}
+
+body {
+  width:80%;
+  margin:0 auto;
+}
+
+
+/* Clearfix */
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix { display: inline-block; }
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+
+@font-face {
+    font-family: 'LeagueGothicRegular';
+    src: url('LeagueGothic/League_Gothic-webfont.eot');
+    src: url('LeagueGothic/League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('LeagueGothic/League_Gothic-webfont.woff') format('woff'),
+         url('LeagueGothic/League_Gothic-webfont.ttf') format('truetype'),
+         url('LeagueGothic/League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'DroidSerifRegular';
+    src: url('Droid/DroidSerif-Regular-webfont.eot');
+    src: url('Droid/DroidSerif-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Droid/DroidSerif-Regular-webfont.woff') format('woff'),
+         url('Droid/DroidSerif-Regular-webfont.ttf') format('truetype'),
+         url('Droid/DroidSerif-Regular-webfont.svg#DroidSerifRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DroidSerifItalic';
+    src: url('Droid/DroidSerif-Italic-webfont.eot');
+    src: url('Droid/DroidSerif-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Droid/DroidSerif-Italic-webfont.woff') format('woff'),
+         url('Droid/DroidSerif-Italic-webfont.ttf') format('truetype'),
+         url('Droid/DroidSerif-Italic-webfont.svg#DroidSerifItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DroidSerifBold';
+    src: url('Droid/DroidSerif-Bold-webfont.eot');
+    src: url('Droid/DroidSerif-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Droid/DroidSerif-Bold-webfont.woff') format('woff'),
+         url('Droid/DroidSerif-Bold-webfont.ttf') format('truetype'),
+         url('Droid/DroidSerif-Bold-webfont.svg#DroidSerifBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'DroidSerifBoldItalic';
+    src: url('Droid/DroidSerif-BoldItalic-webfont.eot');
+    src: url('Droid/DroidSerif-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Droid/DroidSerif-BoldItalic-webfont.woff') format('woff'),
+         url('Droid/DroidSerif-BoldItalic-webfont.ttf') format('truetype'),
+         url('Droid/DroidSerif-BoldItalic-webfont.svg#DroidSerifBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	width:1150px;
+}
+
+.nivoSlider {
+	margin:0 auto;
+	margin-top:95px;
+	margin-bottom:15px;
+    position:relative;
+    width:700px;
+    height:500px;
+    background:url(images/loading.gif) no-repeat 50% 50%;
+}
+.nivoSlider img {
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+}
+.nivoSlider a {
+    border:0;
+    display:block;
+}
+
+a:link {
+	color:black;
+	text-decoration:none;
+}
+
+a:visited {
+	color:black;
+	text-decoration:none;
+}
+
+a:hover {
+	color:gray;
+	text-decoration:none;
+}
+
+a:active {
+	color:yellow;
+	text-decoration:none;
+}
+
+ul {
+	margin-top:7px;
+	margin-bottom:5px;
+}
+
+
+li {
+	display:inline;
+	text-align: center;
+	padding: 1%;
+	font-family: 'LeagueGothicRegular';
+	font-size:25px;
+	text-transform:uppercase;
+}
+
+li a {
+	transition: color 0.2s;
+	-moz-transition: color 0.2s; /* Firefox 4 */
+	-webkit-transition: color 0.2s; /* Safari and Chrome */
+	-o-transition: color 0.2s; /* Opera */
+}
+
+.portfolio {
+	padding:100px 40px 0px 100px;
+}
+
+.aboutme {
+	padding:100px 260px 0px 100px;
+}
+
+.resume {
+	padding:100px 40px 0px 100px;
+}
+
+.contactme {
+	padding:100px 40px 0px 100px;
+}
+
+#logo {
+	text-align: center;
+	margin:10px;
+	width:183px;
+	height:183px;
+	transition: opacity 0.2s;
+	-moz-transition: opacity 0.2s; /* Firefox 4 */
+	-webkit-transition: opacity 0.2s; /* Safari and Chrome */
+	-o-transition: opacity 0.2s; /* Opera */
+}
+
+.footer {
+	border-top: 2px solid #00AFD7;
+	clear:both;
+	margin-bottom:10px;
+	padding-top:7px;
+	
+}
+
+.toplinks {
+		border-top: 2px solid #00AFD7;
+		border-bottom: 2px solid #00AFD7;
+		margin-top:-125px;
+}
+
+.copyright {
+	width:100%;
+	font-family: 'DroidSerifItalic';
+	font-size:10px;
+	text-align:center;
+	
+}
+
+.indivcontent {
+	width:85%;
+	margin:0 auto;
+	margin-top:95px;
+}
+
+.indivcontent iframe {
+	width:50%;
+	display:block;
+	margin:0 auto;
+}
+
+.indivcontent p {
+		padding:10px;
+	text-align:center;
+	font-family: 'DroidSerifRegular';
+	font-size:13px;
+	border-top:1px solid #00AFD7;
+	border-bottom:1px solid #00AFD7;
+	line-height:150%;
+}
+
+.indivcontenttwo p {
+		padding:10px;
+	text-align:center;
+	font-family: 'DroidSerifRegular';
+	font-size:13px;
+	line-height:150%;
+}
+
+.indivcontenttwo {
+	width:85%;
+	margin:0 auto;
+	margin-top:95px;
+}
+
+.indivcontenttwo a {
+	transition: color 0.2s;
+	-moz-transition: color 0.2s; /* Firefox 4 */
+	-webkit-transition: color 0.2s; /* Safari and Chrome */
+	-o-transition: color 0.2s; /* Opera */
+}
+
+.indivcontenttwo h1 {
+	text-align:center;
+	font-family:'LeagueGothicRegular' ;
+	font-size:45px;
+}
+
+.indivcontenttwo img {
+	padding:10px;
+	width:50%;
+	display:block;
+	margin:0 auto;
+}
+
+.indivcontent h1 {
+	text-align:center;
+	font-family:'LeagueGothicRegular' ;
+	font-size:45px;
+}
+
+.indivcontent img {
+	padding:10px;
+	width:55%;
+	display:block;
+	margin:0 auto;
+}
+
+.thumbnails a {
+	position: relative;
+	float:left;
+	padding:10px;
+	display:block;
+	margin:0 auto;
+	width: 250px;
+	height: 250px;
+}
+
+.thumbnails img, .thumbnails div.caption {
+	position: absolute;	
+	top: 0;
+	left: 0;	
+}
+
+div.caption {
+	width: 220px;
+	height: 220px;
+	text-align: center;
+	background-color: white;
+	opacity: 0;
+	padding: 15px;
+	transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s; /* Firefox 4 */
+	-webkit-transition: opacity 0.5s; /* Safari and Chrome */
+	-o-transition: opacity 0.5s; /* Opera */
+}
+
+div.caption h5 {
+	font-size: 26px;
+	font-family:'LeagueGothicRegular';
+	color:#00AFD7;
+}
+
+div.caption p {
+	font-family: 'DroidSerifRegular';
+	font-size: 12px;
+	margin-top:10px;
+	color:black;
+	line-height:125%;
+}
+
+.thumbnails a:hover div.caption {
+	opacity: 0.9;
+}
+
+
+#divthumbnails {
+	padding-top:95px;
+	width:900px;
+	margin:0 auto;
+	margin-left:169px;
+}
+
+#logo h1 a{
+	position:relative;
+	left:470px;
+	display:block;
+	width:183px;
+	height:183px;
+	background:url(Logo.png) no-repeat top left;
+	text-indent:-9999px;	
+}
+
+
+header {
+	margin:0 auto;
+	height:200px;
+}
